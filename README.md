@@ -1,4 +1,4 @@
-# AtWave Google Tag Manager Pixels
+# Atwave Google Tag Manager Pixels
 
 #### Set up our Tag Manager container and test site
 
@@ -8,7 +8,7 @@
 
 ![](https://colony-recorder.s3.amazonaws.com/files/2021-10-28/9d8fe562-6f8f-4160-9620-a29bea4833cc/stack_animation.webp)
 
-**3. Open an AtWave campaign email and copy a campaign URL to use for testing.**
+**3. Open an Atwave campaign email and copy a campaign URL to use for testing.**
 
 ![](https://colony-recorder.s3.amazonaws.com/files/2021-10-28/c6e42ec6-5c4b-4f08-a704-92697ed763ec/stack_animation.webp)
 
@@ -16,7 +16,7 @@
 
 ![](https://colony-recorder.s3.amazonaws.com/scribe_documents/c4f94cd7-cb51-4122-9005-6cb665f54408/actions/f03b593c-9772-4bd9-b5c5-5becb1d61339/cropped_screenshot_$1635431957.png)
 
-#### Add the AtWave tag template to Tag Manager from the gallery
+#### Add the Atwave tag template to Tag Manager from the gallery
 
 **5. Return to Tag Manager https://tagmanager.google.com**
 
@@ -28,11 +28,11 @@
 
 ![](https://colony-recorder.s3.amazonaws.com/scribe_documents/c4f94cd7-cb51-4122-9005-6cb665f54408/actions/18703130-199d-4271-b3d1-85e7de847446/cropped_screenshot_$1635432289.jpeg)
 
-**8. Search for "AtWave"**
+**8. Search for "Atwave"**
 
 ![](https://colony-recorder.s3.amazonaws.com/scribe_documents/c4f94cd7-cb51-4122-9005-6cb665f54408/actions/592e6db3-0878-45cf-b5d6-59e07b1d359a/cropped_screenshot_$1635432289.jpeg)
 
-**9. and select the AtWave template.**
+**9. and select the Atwave template.**
 
 ![](https://colony-recorder.s3.amazonaws.com/files/2021-10-28/385b4496-cc04-45a3-9ff6-c425b5e77934/user_cropped_screenshot.jpeg)
 
@@ -44,20 +44,20 @@
 
 ![](https://colony-recorder.s3.amazonaws.com/files/2021-10-28/ec6d26ae-0932-4a1f-96c8-5853803a3a12/user_cropped_screenshot.jpeg)
 
-**12. You have added the AtWave tag template.**
+**12. You have added the Atwave tag template.**
 
 ![](https://colony-recorder.s3.amazonaws.com/scribe_documents/c4f94cd7-cb51-4122-9005-6cb665f54408/actions/0ff513ae-7e1f-4522-814d-4f118f483983/cropped_screenshot_$1635434106.jpeg)
 
-#### Import the AtWave tag template from a file
+#### Import the Atwave tag template from a file
 
-**13. If you can't add the AtWave tag template from the Gallery you can import
+**13. If you can't add the Atwave tag template from the Gallery you can import
 it from our ".tpl" file directly.**
 
 **14. In Tag Manager, click "Templates" > "New" > three dots**
 
 ![](https://colony-recorder.s3.amazonaws.com/files/2021-10-28/38baf62a-b0e2-49bb-a6a2-893f6c34b6f1/stack_animation.webp)
 
-**15. Click "Import" and select the the "AtWave-Tag-Manager-Template.tpl" file
+**15. Click "Import" and select the the "Atwave-Tag-Manager-Template.tpl" file
 provided to you**
 
 ![](https://colony-recorder.s3.amazonaws.com/scribe_documents/c4f94cd7-cb51-4122-9005-6cb665f54408/actions/58f42092-6ce7-4c22-8761-65f31d823811/cropped_screenshot_$1635433708.jpeg)
@@ -70,11 +70,11 @@ provided to you**
 
 ![](https://colony-recorder.s3.amazonaws.com/scribe_documents/c4f94cd7-cb51-4122-9005-6cb665f54408/actions/06184e40-4e73-4175-afa9-c542d99b339e/cropped_screenshot_$1635433710.jpeg)
 
-**18. You have imported the AtWave tag template**
+**18. You have imported the Atwave tag template**
 
 ![](https://colony-recorder.s3.amazonaws.com/scribe_documents/c4f94cd7-cb51-4122-9005-6cb665f54408/actions/a4e2bc07-5f0d-4b1d-9165-6c35b563ef48/cropped_screenshot_$1635433711.jpeg)
 
-#### Create the AtWave page view tag using the template
+#### Create the Atwave page view tag using the template
 
 **19. Navigate to "Tags"**
 
@@ -88,12 +88,12 @@ provided to you**
 
 ![](https://colony-recorder.s3.amazonaws.com/scribe_documents/c4f94cd7-cb51-4122-9005-6cb665f54408/actions/c58e8310-7108-4515-bb7b-5f9f90f55acd/cropped_screenshot_$1635430815.jpeg)
 
-**22. Select the AtWave custom template you just added **
+**22. Select the Atwave custom template you just added **
 
 ![](https://colony-recorder.s3.amazonaws.com/scribe_documents/c4f94cd7-cb51-4122-9005-6cb665f54408/actions/4547604f-dbd9-4137-a03c-9afabf680f02/cropped_screenshot_$1635430815.jpeg)
 
 **23. Enter the "Offer ID" provided by At Wave. Your "Offer ID" should be the
-same for all your AtWave tags.**
+same for all your Atwave tags.**
 
 ![](https://colony-recorder.s3.amazonaws.com/scribe_documents/c4f94cd7-cb51-4122-9005-6cb665f54408/actions/af779b20-597e-4b6e-99a6-13d491d4f625/cropped_screenshot_$1635430816.jpeg)
 
@@ -108,16 +108,16 @@ Click "Triggering"\*\*
 
 ![](https://colony-recorder.s3.amazonaws.com/scribe_documents/c4f94cd7-cb51-4122-9005-6cb665f54408/actions/46f2966b-1d23-4cc8-b1de-b56000922406/cropped_screenshot_$1635430818.jpeg)
 
-**26. Now that you have configured the AtWave tag to fire on all pages, name it
-"AtWave - Page View"and click "Save"**
+**26. Now that you have configured the Atwave tag to fire on all pages, name it
+"Atwave - Page View"and click "Save"**
 
 ![](https://colony-recorder.s3.amazonaws.com/files/2021-10-28/57fa24fe-ad66-4397-b86d-b8b57992cbee/stack_animation.webp)
 
-**27. You've created the AtWave page view tag**
+**27. You've created the Atwave page view tag**
 
 ![](https://colony-recorder.s3.amazonaws.com/files/2021-10-28/91021cb1-5517-4622-9a03-5faa599b59f9/user_cropped_screenshot.jpeg)
 
-#### Add the AtWave conversion tag
+#### Add the Atwave conversion tag
 
 **28. While the page view tag should fire every time the visitor loads a page,
 the conversion tag should only fire when the visitor successfully converts.
@@ -126,7 +126,7 @@ demo website like this:**
 
 ![](https://colony-recorder.s3.amazonaws.com/files/2021-10-28/0b3559ec-1245-47b2-8a69-42e2cfadc988/stack_animation.webp)
 
-**29. To track conversion we need to create a tag with the same AtWave template
+**29. To track conversion we need to create a tag with the same Atwave template
 In the Tag Manager "Tag" tab Click "New"**
 
 ![](https://colony-recorder.s3.amazonaws.com/scribe_documents/c4f94cd7-cb51-4122-9005-6cb665f54408/actions/4df91800-f1dd-4033-8544-f13f1a56f526/cropped_screenshot_$1635439252.jpeg)
@@ -135,7 +135,7 @@ In the Tag Manager "Tag" tab Click "New"**
 
 ![](https://colony-recorder.s3.amazonaws.com/files/2021-10-28/101b4458-211d-40ba-8f50-ec870388da06/user_cropped_screenshot.jpeg)
 
-**31. Select the"AtWave" template again**
+**31. Select the"Atwave" template again**
 
 ![](https://colony-recorder.s3.amazonaws.com/scribe_documents/c4f94cd7-cb51-4122-9005-6cb665f54408/actions/13fba616-13f7-4ec1-b2b1-483052d50200/cropped_screenshot_$1635439254.jpeg)
 
@@ -144,7 +144,7 @@ dropdown**
 
 ![](https://colony-recorder.s3.amazonaws.com/scribe_documents/c4f94cd7-cb51-4122-9005-6cb665f54408/actions/1088682f-cf01-4c7d-8ee1-0df77080aee5/cropped_screenshot_$1635439257.jpeg)
 
-**33. Enter the Event ID provided by AtWave specific to this conversion. For our
+**33. Enter the Event ID provided by Atwave specific to this conversion. For our
 example, "12" is the Event ID specifically assigned to our contact form submit
 conversion. If you have multiple conversions, you should have a different Event
 ID for each one.**
@@ -154,7 +154,7 @@ ID for each one.**
 \*\*34. Use the "Transaction ID" field to uniquely identify each conversion, if
 applicable. For instance, if you have an ecommerce store, you could select a Tag
 Manager variable for your Order Id as the Transaction ID. Adding a transaction
-id helps attribute conversions to their AtWave campaigns. It also helps prevent
+id helps attribute conversions to their Atwave campaigns. It also helps prevent
 recording duplicate conversions for the same transaction.
 
 In our example, the contact us form doesn't have a transaction id so we'll leave
@@ -187,11 +187,11 @@ Trigger**
 
 **38. You've created the trigger.**
 
-**39. Now name the Tag "AtWave - Contact Us Conversion" and save**
+**39. Now name the Tag "Atwave - Contact Us Conversion" and save**
 
 ![](https://colony-recorder.s3.amazonaws.com/files/2021-10-28/44960f70-74fd-42a8-bb7a-cdc686598ecd/stack_animation.webp)
 
-**40. You've created the "AtWave - Contact Us Conversion" Tag with the "Contact
+**40. You've created the "Atwave - Contact Us Conversion" Tag with the "Contact
 Us - Thank You Page" Trigger.**
 
 ![](https://colony-recorder.s3.amazonaws.com/files/2021-10-28/bdc9c2c5-8207-4da4-8d6a-36ad3d41e608/user_cropped_screenshot.jpeg)
@@ -222,7 +222,7 @@ publishing those changes live.**
 
 ![](https://colony-recorder.s3.amazonaws.com/scribe_documents/c4f94cd7-cb51-4122-9005-6cb665f54408/actions/3a517d70-b523-4dd3-a24d-a9928e2c9fba/cropped_screenshot_$1635441487.jpeg)
 
-**46. You should see that the "AtWave - PageView" tag fired.**
+**46. You should see that the "Atwave - PageView" tag fired.**
 
 ![](https://colony-recorder.s3.amazonaws.com/scribe_documents/c4f94cd7-cb51-4122-9005-6cb665f54408/actions/9bceb464-7b49-44f9-a3d4-4dccb78ca148/cropped_screenshot_$1635441488.jpeg)
 
@@ -230,10 +230,10 @@ publishing those changes live.**
 
 ![](https://colony-recorder.s3.amazonaws.com/scribe_documents/c4f94cd7-cb51-4122-9005-6cb665f54408/actions/fb7707eb-1f43-4108-ac2c-7d7cc8078793/cropped_screenshot_$1635441489.jpeg)
 
-\*\*48. You should see that the "AtWave Page View" tag fired specifically on the
+\*\*48. You should see that the "Atwave Page View" tag fired specifically on the
 "Container Loaded" (ie page view) event.
 
-Click the "AtWave - Page View" tag.\*\*
+Click the "Atwave - Page View" tag.\*\*
 
 ![](https://colony-recorder.s3.amazonaws.com/scribe_documents/c4f94cd7-cb51-4122-9005-6cb665f54408/actions/db5341c4-9626-4ced-b6df-c49946557dcc/cropped_screenshot_$1635441490.jpeg)
 
@@ -276,8 +276,8 @@ Return to Tag Manager and click "Submit"\*\*
 
 ![](https://colony-recorder.s3.amazonaws.com/files/2021-10-28/79989d56-868e-4c64-853c-9cc5e1c9a10b/user_cropped_screenshot.jpeg)
 
-**57. You have now implemented the AtWave page view and conversion pixels**
+**57. You have now implemented the Atwave page view and conversion pixels**
 
 ![](https://colony-recorder.s3.amazonaws.com/files/2021-10-28/87edd7bd-26db-442e-9fe6-bbc436c5385c/user_cropped_screenshot.jpeg)
 
-#### [Made with Scribe](https://scribehow.com/shared/AtWave_Google_Tag_Manager_Pixels__xPlM18tRQSKQBWy2ZfVECA)
+#### [Made with Scribe](https://scribehow.com/shared/Atwave_Google_Tag_Manager_Pixels__xPlM18tRQSKQBWy2ZfVECA)
