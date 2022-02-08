@@ -1,5 +1,5 @@
 homepage: "https://atwave.com/"
 documentation: "https://github.com/atwave-web/at-wave-gtm-template"
 versions:
-  - sha: 4d8c5c6c9b2b7a30636a5962005d9624013f428a
+  - sha: c9a6923dabea2145f20a8c302498b9f4c3fd93d1
     changeNotes: Initial release.
