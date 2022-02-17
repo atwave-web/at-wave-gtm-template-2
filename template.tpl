@@ -156,6 +156,7 @@ const json = require("JSON");
 // Get the user data
 const offerId = data.offerId;
 const eventId = data.eventId;
+const trackingType = data.trackingType;
 const transactionId = data.transactionId;
 const preventDuplicateTransactions = data.preventDuplicateTransactions;
 const testUrl = data.testUrl;
@@ -274,9 +275,14 @@ if (requestSessionId) {
 
   // If the URL input by the user matches the permissions set for the template,
   // inject the script with the onSuccess and onFailure methods as callbacks.
-  if (queryPermission("inject_script", url)) {
+  log(trackingType);
+  if (queryPermission("inject_script", url) && trackingType == "conversion") {
     injectScript(url, onSuccess, onFailure);
-  } else {
+  } 
+  else if(trackingType == "pageview"){
+    log("AtWave: click id saved. No event fired.");
+  }
+  else {
     log("AtWave: Script load failed due to permissions mismatch.");
     data.gtmOnFailure();
   }
