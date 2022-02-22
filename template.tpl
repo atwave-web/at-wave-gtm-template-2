@@ -1,12 +1,4 @@
-﻿___TERMS_OF_SERVICE___
-
-By creating or modifying this file you agree to Google Tag Manager's Community
-Template Gallery Developer Terms of Service available at
-https://developers.google.com/tag-manager/gallery-tos (or such other URL as
-Google may provide), as modified from time to time.
-
-
-___INFO___
+﻿___INFO___
 
 {
   "type": "TAG",
@@ -205,7 +197,7 @@ const preventDuplicate =
 // Get and/or set the requestSessionID
 const currentUrl =  testUrl || getUrl();
 const parsedUrl = parseUrl(currentUrl);
-const utmClickId = parsedUrl.searchParams.utm_Clickid;
+const utmClickId = parsedUrl.searchParams.utm_clickid;
 let requestSessionId;
 if (utmClickId) {
   localStorage.setItem(sessionIdKey, utmClickId);
@@ -217,17 +209,23 @@ if (utmClickId) {
     samesite: "lax",
   });
   requestSessionId = utmClickId;
+  log("utmClikcId found in url: " + utmClickId);
 } else {
   // Get session Ids if available
   const sessionLocalStorageID = localStorage.getItem(sessionIdKey);
-  const sessionCookieID = getCookieValues(sessionIdKey);
+  let sessionCookieID = getCookieValues(sessionIdKey);
+  sessionCookieID = sessionCookieID.length > 0 ? sessionCookieID[0] : null;
   requestSessionId = sessionLocalStorageID || sessionCookieID;
   const idFrom = sessionLocalStorageID ? "local storage" : "cookies";
-  log(requestSessionId);
-  const message = requestSessionId ?  "AtWave: found request session id " + requestSessionId + " in " + idFrom : "AtWave: no session id found in local storage or cookies";
-  log(message);
+  
+  if (requestSessionId){
+    const message = "Atwave: found request session id " + requestSessionId + " in " + idFrom;
+    log(message);
+  }
+  else{
+    log("AtWave: no session id found in local storage or cookies");
+  }
 }
-log(requestSessionId);
 
 if (preventDuplicate) {
   log(
@@ -248,8 +246,6 @@ if (requestSessionId) {
   if (transactionId) {
     url = url + "&t=" + transactionId;
   }
-
-  log("AtWave: Loading script from " + url);
 
   // If the script loaded successfully, log a message and signal success
   const onSuccess = () => {
@@ -275,13 +271,16 @@ if (requestSessionId) {
 
   // If the URL input by the user matches the permissions set for the template,
   // inject the script with the onSuccess and onFailure methods as callbacks.
-  log(trackingType);
-  if (queryPermission("inject_script", url) && trackingType == "conversion") {
-    injectScript(url, onSuccess, onFailure);
+  if (queryPermission("inject_script", url)) {
+    if (trackingType === "conversion"){
+      log("Atwave: Loading script from " + url);
+      injectScript(url, onSuccess, onFailure);
+    }
+    else{
+      log("Atwave: pageview event. No script fired.");
+      data.gtmOnSuccess();
+    }
   } 
-  else if(trackingType == "pageview"){
-    log("AtWave: click id saved. No event fired.");
-  }
   else {
     log("AtWave: Script load failed due to permissions mismatch.");
     data.gtmOnFailure();
