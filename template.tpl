@@ -144,6 +144,7 @@ const getCookieValues = require("getCookieValues");
 const setCookie = require("setCookie");
 const localStorage = require("localStorage");
 const json = require("JSON");
+const encodeUriComponent = require('encodeUriComponent');
 
 // Get the user data
 const offerId = data.offerId;
@@ -236,15 +237,15 @@ if (requestSessionId) {
   // Generate the url
   let url =
     "https://scalebus.com/p.ashx?o=" +
-    offerId +
+    encodeUriComponent(offerId) +
     "&r=" +
-    requestSessionId;
+    encodeUriComponent(requestSessionId);
 
   if (eventId){
-    url = url + "&e=" + eventId;
+    url = url + "&e=" + encodeUriComponent(eventId);
   }
   if (transactionId) {
-    url = url + "&t=" + transactionId;
+    url = url + "&t=" + encodeUriComponent(transactionId);
   }
 
   // If the script loaded successfully, log a message and signal success
