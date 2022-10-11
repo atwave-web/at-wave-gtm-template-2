@@ -1,5 +1,10 @@
 homepage: "https://atwave.com/"
 documentation: "https://github.com/atwave-web/at-wave-gtm-template-2"
 versions:
+  # Latest version
+   - sha: e2816a1f54bca8b16b2758bb02e0adc4728804fd
+    changeNotes: Added f=js fix to avoid cake bug.
+  # Older versions
   - sha: 69ecc9d1e3017233ff25a26f5ed021e7c0067923
     changeNotes: Initial release.
+ 
