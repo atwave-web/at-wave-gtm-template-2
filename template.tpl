@@ -247,7 +247,8 @@ if (requestSessionId) {
     "https://scalebus.com/p.ashx?o=" +
     encodeUriComponent(offerId) +
     "&r=" +
-    encodeUriComponent(requestSessionId);
+    encodeUriComponent(requestSessionId) +
+    "&f=js";
 
   if (eventId){
     url = url + "&e=" + encodeUriComponent(eventId);
